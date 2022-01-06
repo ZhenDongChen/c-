@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "测试工程", "测试工程\测试工程.csproj", "{64C38132-4DD8-4B12-8478-805CA522AEE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "测试类库", "测试类库\测试类库.csproj", "{E6078B06-323C-4311-88C3-A460C99BFE53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64C38132-4DD8-4B12-8478-805CA522AEE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C38132-4DD8-4B12-8478-805CA522AEE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C38132-4DD8-4B12-8478-805CA522AEE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C38132-4DD8-4B12-8478-805CA522AEE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6078B06-323C-4311-88C3-A460C99BFE53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6078B06-323C-4311-88C3-A460C99BFE53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6078B06-323C-4311-88C3-A460C99BFE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6078B06-323C-4311-88C3-A460C99BFE53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C18732F3-AC46-4A63-B99A-8B49741BCF43}
+	EndGlobalSection
+EndGlobal
