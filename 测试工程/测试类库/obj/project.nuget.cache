@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "kHbChVmY7/wbtlKKCBHrkgDYQQ8TualOSsv9S+6UFFzwKQ8vlh3t0sIwz7zKnXYS/YsQ6N4TL0VtBmqe1YjfSg==",
+  "dgSpecHash": "/HNutswlEAOL+tQS4pqhvQAwBZdP62El3VQeNTQDwBgaaDauu06lFbvN95sZC/iccbl/sElHDNJPK0rL8dQepw==",
   "success": true,
-  "projectFilePath": "E:\\c#Project\\测试工程\\测试类库\\测试类库.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\c#Project\\c-\\测试工程\\测试类库\\测试类库.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

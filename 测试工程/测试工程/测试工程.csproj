@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>测试工程</RootNamespace>
     <AssemblyName>测试工程</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TestAssembly.cs" />
     <Compile Include="testAttribute.cs" />
     <Compile Include="TestCancellation.cs" />
     <Compile Include="TestEnumberable.cs" />
@@ -52,9 +54,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestIasyncResult.cs" />
     <Compile Include="testYieldReturn.cs" />
+    <Compile Include="WroxDynamicObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AssemblyTest1\AssemblyTest1.csproj">
+      <Project>{6ed3681d-6b19-4c93-9cec-bc58446e0de1}</Project>
+      <Name>AssemblyTest1</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

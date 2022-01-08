@@ -1,0 +1,10 @@
+E:\c#Project\c-\测试工程\AssemblyTest1\bin\Debug\netstandard2.0\AssemblyTest1.deps.json
+E:\c#Project\c-\测试工程\AssemblyTest1\bin\Debug\netstandard2.0\AssemblyTest1.dll
+E:\c#Project\c-\测试工程\AssemblyTest1\bin\Debug\netstandard2.0\AssemblyTest1.pdb
+E:\c#Project\c-\测试工程\AssemblyTest1\obj\Debug\netstandard2.0\AssemblyTest1.csproj.AssemblyReference.cache
+E:\c#Project\c-\测试工程\AssemblyTest1\obj\Debug\netstandard2.0\AssemblyTest1.GeneratedMSBuildEditorConfig.editorconfig
+E:\c#Project\c-\测试工程\AssemblyTest1\obj\Debug\netstandard2.0\AssemblyTest1.AssemblyInfoInputs.cache
+E:\c#Project\c-\测试工程\AssemblyTest1\obj\Debug\netstandard2.0\AssemblyTest1.AssemblyInfo.cs
+E:\c#Project\c-\测试工程\AssemblyTest1\obj\Debug\netstandard2.0\AssemblyTest1.csproj.CoreCompileInputs.cache
+E:\c#Project\c-\测试工程\AssemblyTest1\obj\Debug\netstandard2.0\AssemblyTest1.dll
+E:\c#Project\c-\测试工程\AssemblyTest1\obj\Debug\netstandard2.0\AssemblyTest1.pdb

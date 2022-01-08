@@ -41,7 +41,7 @@ namespace 测试工程
         public void BirdMethod() { }
     }
 
-    public class testAttribute
+    public class testAttribute1
     {
         public static void Test()
         {

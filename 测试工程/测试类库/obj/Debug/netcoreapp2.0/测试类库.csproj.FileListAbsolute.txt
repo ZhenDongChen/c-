@@ -1,0 +1,10 @@
+E:\c#Project\c-\测试工程\测试类库\bin\Debug\netcoreapp2.0\测试类库.deps.json
+E:\c#Project\c-\测试工程\测试类库\bin\Debug\netcoreapp2.0\测试类库.dll
+E:\c#Project\c-\测试工程\测试类库\bin\Debug\netcoreapp2.0\测试类库.pdb
+E:\c#Project\c-\测试工程\测试类库\obj\Debug\netcoreapp2.0\测试类库.csproj.AssemblyReference.cache
+E:\c#Project\c-\测试工程\测试类库\obj\Debug\netcoreapp2.0\测试类库.GeneratedMSBuildEditorConfig.editorconfig
+E:\c#Project\c-\测试工程\测试类库\obj\Debug\netcoreapp2.0\测试类库.AssemblyInfoInputs.cache
+E:\c#Project\c-\测试工程\测试类库\obj\Debug\netcoreapp2.0\测试类库.AssemblyInfo.cs
+E:\c#Project\c-\测试工程\测试类库\obj\Debug\netcoreapp2.0\测试类库.csproj.CoreCompileInputs.cache
+E:\c#Project\c-\测试工程\测试类库\obj\Debug\netcoreapp2.0\测试类库.dll
+E:\c#Project\c-\测试工程\测试类库\obj\Debug\netcoreapp2.0\测试类库.pdb

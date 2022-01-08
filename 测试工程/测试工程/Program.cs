@@ -1,6 +1,8 @@
-﻿using System;
+﻿using AssemblyTest1;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -12,7 +14,58 @@ namespace 测试工程
     {
 
 
+        public static void TestAssembly()
+        {
+            Assembly assem = typeof(TestAssembly).Assembly;
+            Console.WriteLine("Assembly Full Name:");
+            Console.WriteLine(assem.FullName);
 
+            AssemblyName assemblyName = assem.GetName();
+            Console.WriteLine("Name:{0}",assemblyName.Name);
+            Console.WriteLine("\nAssembly CodeBase:");
+            Console.WriteLine(assem.CodeBase);
+
+            // Create an object from the assembly, passing in the correct number
+            // and type of arguments for the constructor.
+            Object o = assem.CreateInstance("TestAssembly", false,
+                BindingFlags.ExactBinding,
+                null, new Object[] { 2 }, null, null);
+
+            // Make a late-bound call to an instance method of the object.
+            MethodInfo m = assem.GetType("TestAssembly").GetMethod("SampleMethod");
+            Object ret = m.Invoke(o, new Object[] { 42 });
+            Console.WriteLine("SampleMethod returned {0}.", ret);
+
+            Console.WriteLine("\nAssembly entry point:");
+            foreach (var item in assem.ExportedTypes)
+            {
+                Console.WriteLine(item.Name);
+            }
+            Assembly assembly = Assembly.Load("AssemblyTest1");
+            if (assembly != null)
+            {
+                Console.WriteLine("加载程序成功");
+
+                var allTypes = assembly.GetTypes();
+                foreach (var item in allTypes)
+                {
+                    foreach (var item1 in item.GetTypeInfo().CustomAttributes)
+                    {
+                        Console.WriteLine("class attribute" + item1.AttributeType.Name);
+                    }
+                    Console.WriteLine(item.Name);
+                }
+                Console.WriteLine("-------------");
+
+                Attribute[] definedAttributes = Attribute.GetCustomAttributes(assembly);
+                foreach (var item in definedAttributes)
+                {
+                    Console.WriteLine(item.ToString());
+                }
+            }
+
+
+        }
         static void Main(string[] args)
         {
             ///测试异步加载接口
@@ -39,7 +92,10 @@ namespace 测试工程
             //Console.ReadKey();
 
             //TestCancellation.Test();
-            testAttribute.Test();
+            //testAttribute.Test();
+            //Program.TestAssembly();
+            DynamicObjectTest.Test();
+
             Console.ReadKey();
         }
     }
