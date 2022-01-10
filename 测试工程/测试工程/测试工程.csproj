@@ -49,6 +49,8 @@
     <Compile Include="TestCancellation.cs" />
     <Compile Include="TestEnumberable.cs" />
     <Compile Include="TestInterlocked.cs" />
+    <Compile Include="TestParallel.cs" />
+    <Compile Include="TestTask.cs" />
     <Compile Include="TestTaskFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

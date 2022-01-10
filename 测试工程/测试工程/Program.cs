@@ -94,8 +94,9 @@ namespace 测试工程
             //TestCancellation.Test();
             //testAttribute.Test();
             //Program.TestAssembly();
-            DynamicObjectTest.Test();
-
+            // DynamicObjectTest.Test();
+            //TestParallel.Test();
+            TestTask.RunsynchronousTask();
             Console.ReadKey();
         }
     }
