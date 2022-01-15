@@ -1,0 +1,13 @@
+E:\c#Project\c-\测试工程\test2\bin\Debug\netcoreapp3.0\test2.exe
+E:\c#Project\c-\测试工程\test2\bin\Debug\netcoreapp3.0\test2.deps.json
+E:\c#Project\c-\测试工程\test2\bin\Debug\netcoreapp3.0\test2.runtimeconfig.json
+E:\c#Project\c-\测试工程\test2\bin\Debug\netcoreapp3.0\test2.runtimeconfig.dev.json
+E:\c#Project\c-\测试工程\test2\bin\Debug\netcoreapp3.0\test2.dll
+E:\c#Project\c-\测试工程\test2\bin\Debug\netcoreapp3.0\test2.pdb
+E:\c#Project\c-\测试工程\test2\obj\Debug\netcoreapp3.0\test2.GeneratedMSBuildEditorConfig.editorconfig
+E:\c#Project\c-\测试工程\test2\obj\Debug\netcoreapp3.0\test2.AssemblyInfoInputs.cache
+E:\c#Project\c-\测试工程\test2\obj\Debug\netcoreapp3.0\test2.AssemblyInfo.cs
+E:\c#Project\c-\测试工程\test2\obj\Debug\netcoreapp3.0\test2.csproj.CoreCompileInputs.cache
+E:\c#Project\c-\测试工程\test2\obj\Debug\netcoreapp3.0\test2.dll
+E:\c#Project\c-\测试工程\test2\obj\Debug\netcoreapp3.0\test2.pdb
+E:\c#Project\c-\测试工程\test2\obj\Debug\netcoreapp3.0\test2.genruntimeconfig.cache

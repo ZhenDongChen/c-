@@ -9,6 +9,70 @@ namespace 测试工程
 {
     public class TestCancellation
     {
+
+        public static void CancelTask()
+        {
+            var cts = new CancellationTokenSource();
+            cts.Token.Register(() => Console.WriteLine("task cancel"));
+            cts.CancelAfter(500);
+
+            Task t1 = Task.Run(() =>
+            {
+                Console.WriteLine("in task");
+                for (int i = 0; i < 100; i++)
+                {
+                    Task.Delay(100).Wait();
+                    CancellationToken token = cts.Token;
+                    if (token.IsCancellationRequested)
+                    {
+                        Console.WriteLine("cancelling was requested cancelling from within the task");
+                        token.ThrowIfCancellationRequested();
+                        break;
+                    }
+                    Console.WriteLine("in loop");
+                }
+                Console.WriteLine("task finished without cancellation");
+            },cts.Token);
+            try
+            {
+                t1.Wait();
+            }
+            catch (AggregateException ex)
+            {
+                Console.WriteLine($"{ex.Message}");
+            }
+        }
+
+        public static void CancelParallelFor()
+        {
+            var cts = new CancellationTokenSource();
+            cts.Token.Register(() => Console.WriteLine("token cancelled")) ;
+            cts.CancelAfter(50);
+
+            try
+            {
+                Parallel.For(0, 5, new ParallelOptions 
+                { CancellationToken = cts.Token },i=>
+                {
+                    Console.WriteLine($"loop {i} started");
+                    int sum = 0;
+                    for (int j = 0; j < 100; j++)
+                    {
+                        Task.Delay(2).Wait();
+                        sum += j;
+                    }
+                    Console.WriteLine($"loop {i} finished");
+                });
+
+
+            }
+            catch (OperationCanceledException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+        }
+
         public static void Test()
         {
             CancellationTokenSource source = new CancellationTokenSource();

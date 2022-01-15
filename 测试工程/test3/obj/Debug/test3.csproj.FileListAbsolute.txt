@@ -1,0 +1,7 @@
+E:\c#Project\c-\测试工程\test3\bin\Debug\test3.exe.config
+E:\c#Project\c-\测试工程\test3\bin\Debug\test3.exe
+E:\c#Project\c-\测试工程\test3\bin\Debug\test3.pdb
+E:\c#Project\c-\测试工程\test3\obj\Debug\test3.csproj.CoreCompileInputs.cache
+E:\c#Project\c-\测试工程\test3\obj\Debug\test3.exe
+E:\c#Project\c-\测试工程\test3\obj\Debug\test3.pdb
+E:\c#Project\c-\测试工程\test3\obj\Debug\test3.csproj.AssemblyReference.cache

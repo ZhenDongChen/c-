@@ -1,0 +1,13 @@
+E:\c#Project\c-\测试工程\testAppdomain1\bin\Debug\netcoreapp3.1\testAppdomain1.exe
+E:\c#Project\c-\测试工程\testAppdomain1\bin\Debug\netcoreapp3.1\testAppdomain1.deps.json
+E:\c#Project\c-\测试工程\testAppdomain1\bin\Debug\netcoreapp3.1\testAppdomain1.runtimeconfig.json
+E:\c#Project\c-\测试工程\testAppdomain1\bin\Debug\netcoreapp3.1\testAppdomain1.runtimeconfig.dev.json
+E:\c#Project\c-\测试工程\testAppdomain1\bin\Debug\netcoreapp3.1\testAppdomain1.dll
+E:\c#Project\c-\测试工程\testAppdomain1\bin\Debug\netcoreapp3.1\testAppdomain1.pdb
+E:\c#Project\c-\测试工程\testAppdomain1\obj\Debug\netcoreapp3.1\testAppdomain1.GeneratedMSBuildEditorConfig.editorconfig
+E:\c#Project\c-\测试工程\testAppdomain1\obj\Debug\netcoreapp3.1\testAppdomain1.AssemblyInfoInputs.cache
+E:\c#Project\c-\测试工程\testAppdomain1\obj\Debug\netcoreapp3.1\testAppdomain1.AssemblyInfo.cs
+E:\c#Project\c-\测试工程\testAppdomain1\obj\Debug\netcoreapp3.1\testAppdomain1.csproj.CoreCompileInputs.cache
+E:\c#Project\c-\测试工程\testAppdomain1\obj\Debug\netcoreapp3.1\testAppdomain1.dll
+E:\c#Project\c-\测试工程\testAppdomain1\obj\Debug\netcoreapp3.1\testAppdomain1.pdb
+E:\c#Project\c-\测试工程\testAppdomain1\obj\Debug\netcoreapp3.1\testAppdomain1.genruntimeconfig.cache

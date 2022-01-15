@@ -72,5 +72,13 @@ namespace 测试工程
             Task t4 = Task.Run(()=>TaskMethod("using the run method"));
         }
 
+        public static void TestOrder()
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                Task.Delay(1000).Wait();
+                Console.WriteLine(i);
+            }
+        }
     }
 }

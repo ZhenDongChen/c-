@@ -95,8 +95,17 @@ namespace 测试工程
             //testAttribute.Test();
             //Program.TestAssembly();
             // DynamicObjectTest.Test();
-            //TestParallel.Test();
-            TestTask.RunsynchronousTask();
+            //TestCancellation.CancelTask();
+            //TestTask.TestOrder();
+            //TaskSyncData.TestTaskSync();
+            //  for (int i = 0; i < 5; i++)
+            //{
+            //    TaskSyncData.TestJob();
+            //}
+            //TestProcess.GetProcessModule();
+            //TestAppDomain.TestAppDomain1();
+            TestAppDomain.TestAppdomain2();
+            Console.WriteLine("当前域输出");
             Console.ReadKey();
         }
     }

@@ -111,3 +111,7 @@ E:\c#Project\c-\测试工程\测试工程\obj\Debug\测试工程.exe.config
 E:\c#Project\c-\测试工程\测试工程\obj\Debug\测试工程.csproj.CoreCompileInputs.cache
 E:\c#Project\c-\测试工程\测试工程\obj\Debug\测试工程.exe
 E:\c#Project\c-\测试工程\测试工程\obj\Debug\测试工程.pdb
+E:\c#Project\c-\测试工程\测试工程\bin\Debug\System.Threading.Tasks.Dataflow.dll
+E:\c#Project\c-\测试工程\测试工程\bin\Debug\System.Threading.Tasks.Dataflow.xml
+E:\c#Project\c-\测试工程\测试工程\bin\Debug\testAppdomain1.dll
+E:\c#Project\c-\测试工程\测试工程\bin\Debug\testAppdomain1.pdb
