@@ -104,8 +104,15 @@ namespace 测试工程
             //}
             //TestProcess.GetProcessModule();
             //TestAppDomain.TestAppDomain1();
-            TestAppDomain.TestAppdomain2();
-            Console.WriteLine("当前域输出");
+            //TestAppDomain.TestAppdomain2();
+            //Console.WriteLine("当前域输出");
+            //TestMonitor.TestMonitor1();
+            //testAutoResetEvent.TestAutoResetEvent();
+            // TestWaithandle.TestWaithandle1();
+            // testRegex.TestRegex();
+            //TestFileStream.ReadFileUsingFileStream(@"E:\c#Project\测试文本.txt");
+            TestFileStream.TestBinaryWriter(@"E:\c#Project\二进制.txt");
+            //TestTimer.Test2();
             Console.ReadKey();
         }
     }

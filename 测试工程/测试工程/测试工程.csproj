@@ -54,17 +54,24 @@
     <Compile Include="TestAppDomain.cs" />
     <Compile Include="TestAssembly.cs" />
     <Compile Include="testAttribute.cs" />
+    <Compile Include="testAutoResetEvent.cs" />
     <Compile Include="TestCancellation.cs" />
     <Compile Include="TestDataFlow.cs" />
     <Compile Include="TestEnumberable.cs" />
+    <Compile Include="TestFileStream.cs" />
     <Compile Include="TestInterlocked.cs" />
+    <Compile Include="TestMonitor.cs" />
     <Compile Include="TestParallel.cs" />
     <Compile Include="TestProcess.cs" />
+    <Compile Include="testRegex.cs" />
     <Compile Include="TestTask.cs" />
     <Compile Include="TestTaskFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestIasyncResult.cs" />
+    <Compile Include="TestThreadPool.cs" />
+    <Compile Include="TestTimer.cs" />
+    <Compile Include="TestWaithandle.cs" />
     <Compile Include="testYieldReturn.cs" />
     <Compile Include="WroxDynamicObject.cs" />
   </ItemGroup>
